@@ -3,5 +3,5 @@ python3-numpy
 python3-plotly
 python3-matplotlib
 python3-sklearn
-pystan
-fbprophet
+Pystan==2.19.1.1
+fbprophet==0.7.1

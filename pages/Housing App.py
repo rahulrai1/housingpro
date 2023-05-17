@@ -126,8 +126,8 @@ df=restore_dataset()
 if 'model_list' in st.session_state:    
     models=st.session_state['model_list']
     st.markdown("##### Model has been deployed")
-else:
-    st.markdown("##Please go back and train the model.")
+#else:
+#    st.markdown("##Please go back and train the model.")
 if df is not None:
     df.dropna(inplace=True)
     st.markdown('## Interested in investing in New York City?')

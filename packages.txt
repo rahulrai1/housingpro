@@ -1,6 +1,6 @@
-pandas
-numpy
-plotly
-matplotlib
-scikit-learn
-prophet
+python3-pandas
+python3-numpy
+python3-plotly
+python3-matplotlib
+python3-scikit-learn
+python3-prophet

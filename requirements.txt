@@ -1,7 +1,7 @@
-python3-pandas
-python3-numpy
-python3-plotly
-python3-matplotlib
-python3-sklearn
+pandas
+numpy
+plotly
+matplotlib
+scikit-learn
 pystan==2.19.1.1
 fbprophet==0.7.1

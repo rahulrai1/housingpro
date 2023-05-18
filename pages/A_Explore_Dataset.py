@@ -197,7 +197,7 @@ if df is not None:
     # Collect features for correlation analysis using multiselect
     select_features_for_correlation = st.multiselect(
         'Select secondary features for visualize of correlation analysis (up to 4 recommended)',
-        X[X.select_dtypes(['float', 'int']).columns],
+        X.select_dtypes(include=['float','int'])
     )
 
     if select_features_for_correlation:
